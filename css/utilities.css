@@ -6,6 +6,19 @@
   
 }
 
+.containerbutton {
+  max-width: 200px;
+  margin: 0 auto 0 170px;
+  padding: 0 10px;
+}
+
+@media (max-width: 500px) {
+  .containerbutton {
+    margin: 0 auto 0 50px;
+  }
+
+   }
+
 .card {
   background-color: #fff;
   color: #333;
